@@ -1,0 +1,35 @@
+name: Build release zip
+
+on:
+  push:
+    branches: [master]
+  pull_request:
+    branches: [master]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      # 1. 检出仓库
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      # 2. 获取Git hash
+      - name: Get git hash
+        id: vars
+        run: echo "sha_short=$(git rev-parse --short HEAD)" >> "$GITHUB_OUTPUT"
+
+      # 3. 打包并排除指定目录/文件
+      - name: Create zip archive
+        run: |
+          zip -r "streak_res_${{ steps.vars.outputs.sha_short }}.zip" . \
+            -x '*/.vscode/*' \
+               '*/.github/*' \
+               '*/.gitee/*'
+
+      # 4. 上传构建产物
+      - name: Upload artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: streak_res_${{ steps.vars.outputs.sha_short }}
+          path: streak_res_${{ steps.vars.outputs.sha_short }}.zip
