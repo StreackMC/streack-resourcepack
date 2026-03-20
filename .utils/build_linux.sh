@@ -68,7 +68,7 @@ ts_log() {
 exec > >(ts_log)
 exec 2>&1
 
-buildtool_ver="0.2.0"
+buildtool_ver="0.2.1"
 
 echo -e "${BOLD}${BPURPLE}StreackMC Buildtool for ${UNDERLINE}MCPACK"
 echo -e "${BCYAN}v${buildtool_ver}"
@@ -100,6 +100,9 @@ git_ver="${git_branch}@${git_rev}"
 echo -e "${NC}当前 Git 指针位于：${git_ver}"
 
 echo -e "${NC}${BOLD}${CYAN}# 准备工作目录"
+if [[ ! -d "./.target" ]]; then
+  mkdir -p target
+fi
 ls ./target
 echo -e "${BYELLOW}目录 ./target 下的上述文件将被永久删除。"
 rm -rf target
