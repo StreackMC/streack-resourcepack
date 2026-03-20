@@ -1,5 +1,8 @@
 name: Build release zip
 
+disabled:
+  s
+
 on:
   push:
     branches: [master]
@@ -22,14 +25,15 @@ jobs:
       # 3. 打包并排除指定目录/文件
       - name: Create zip archive
         run: |
-          zip -r "streak_res_${{ steps.vars.outputs.sha_short }}.zip" . \
+          zip -r "streak_dp_${{ steps.vars.outputs.sha_short }}.zip" . \
             -x '*/.vscode/*' \
                '*/.github/*' \
-               '*/.gitee/*'
+               '*/.gitee/*' \
+               '*/spyglass.json'
 
       # 4. 上传构建产物
       - name: Upload artifact
         uses: actions/upload-artifact@v4
         with:
-          name: streak_res_${{ steps.vars.outputs.sha_short }}
-          path: streak_res_${{ steps.vars.outputs.sha_short }}.zip
+          name: streak_dp_${{ steps.vars.outputs.sha_short }}
+          path: streak_dp_${{ steps.vars.outputs.sha_short }}.zip
