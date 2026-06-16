@@ -1,0 +1,62 @@
+name: Auto Release
+
+on:
+  push:
+    tags: ["*"]
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Get short git hash
+        id: git
+        run: echo "sha=$(git rev-parse --short HEAD)" >> "$GITHUB_OUTPUT"
+
+      # 构建项目
+      - name: Build project
+        run: |
+          bash ./.utils/build_linux.sh github_CI_release
+
+      # 上传 CI 产物
+      - name: Upload built artifacts
+        uses: actions/upload-artifact@v4
+        with:
+          name: StreackServicesDatapack-git@${{ steps.git.outputs.sha }}
+          path: target/*
+
+      # 4. 读取 ChangeLog 内容
+      - name: Read ChangeLog
+        id: changelog
+        shell: bash
+        run: |
+          if [ -f .change_log.md ]; then
+            {
+              echo 'body<<EOF'
+              cat .change_log.md
+              echo
+              echo 'EOF'
+            } >> "$GITHUB_OUTPUT"
+          else
+            echo "body=*No ChangeLog yet.*" >> "$GITHUB_OUTPUT"
+          fi
+
+      # 发布 Release
+      - name: Create Release & Upload Assets
+        uses: softprops/action-gh-release@v1
+        with:
+          tag_name: ${{ github.ref_name }}
+          name: v${{ github.ref_name }}
+          body: ${{ steps.changelog.outputs.body }}
+          files: |
+            target/*
+          draft: false
+          prerelease: false
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
