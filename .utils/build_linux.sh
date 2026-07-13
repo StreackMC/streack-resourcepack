@@ -115,6 +115,15 @@ zip -r9 ./target/${app_output_name}-${git_ver}.zip \
   ./pack.mcmeta \
   ./pack.png \
   "./README ‖ 读我.txt" \
+  ./assets/* \
+  ./texts/* \
+  ./textures/* \
+  ./ui/* \
+  ./license.txt \
+  ./pack.mcmeta \
+  ./manifest.json \
+  ./pack.png \
+  ./pack_icon.png \
   ./Reference_License.txt
 
 echo -e "${NC}${BOLD}${CYAN}# 附加构建信息"
