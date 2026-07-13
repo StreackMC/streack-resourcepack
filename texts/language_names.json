@@ -1,0 +1,546 @@
+[
+  [
+    "eo_UY",
+    "Esperanto (Esperantujo)"
+  ],
+  [
+    "pt_BR",
+    "Português (Brasil)"
+  ],
+  [
+    "yi_DE",
+    "ייִדיש (אשכנזיש יידן)"
+  ],
+  [
+    "mt_MT",
+    "Malti (Malta)"
+  ],
+  [
+    "cs_CZ",
+    "Čeština (Česko)"
+  ],
+  [
+    "fur_IT",
+    "Furlan (Friûl)"
+  ],
+  [
+    "nl_BE",
+    "Vlaams (België)"
+  ],
+  [
+    "pt_PT",
+    "Português (Portugal)"
+  ],
+  [
+    "is_IS",
+    "Íslenska (Ísland)"
+  ],
+  [
+    "bar",
+    "Boarisch (Bayern)"
+  ],
+  [
+    "sr_SP",
+    "Српски (Србија)"
+  ],
+  [
+    "ja_JP",
+    "日本語 (日本)"
+  ],
+  [
+    "oc_FR",
+    "Occitan (Occitània)"
+  ],
+  [
+    "ta_IN",
+    "தமிழ் (இந்தியா)"
+  ],
+  [
+    "fa_IR",
+    "فارسی (ايران)"
+  ],
+  [
+    "lzh",
+    "文言 (華夏)"
+  ],
+  [
+    "tt_RU",
+    "Татарча (Татарстан, Рәсәй)"
+  ],
+  [
+    "es_MX",
+    "Español (México)"
+  ],
+  [
+    "sq_AL",
+    "Shqip (Shqipëri)"
+  ],
+  [
+    "en_NZ",
+    "English (New Zealand)"
+  ],
+  [
+    "kn_IN",
+    "ಕನ್ನಡ (ಭಾರತ)"
+  ],
+  [
+    "hr_HR",
+    "Hrvatski (Hrvatska)"
+  ],
+  [
+    "szl",
+    "Ślōnski (Gōrny Ślōnsk)"
+  ],
+  [
+    "la_LA",
+    "Latina (Latium)"
+  ],
+  [
+    "se_NO",
+    "Davvisámegiella (Sápmi)"
+  ],
+  [
+    "hn_NO",
+    "Høgnorsk (Norig)"
+  ],
+  [
+    "fo_FO",
+    "Føroyskt (Føroyar)"
+  ],
+  [
+    "hy_AM",
+    "Հայերեն (Հայաստան)"
+  ],
+  [
+    "ksh",
+    "Kölsch/Ripoarisch (Rhingland)"
+  ],
+  [
+    "lol_US",
+    "LOLCAT (Kingdom of Cats)"
+  ],
+  [
+    "ky_KG",
+    "Кыргызча (Кыргызстан)"
+  ],
+  [
+    "fy_NL",
+    "Frysk (Fryslân)"
+  ],
+  [
+    "lmo",
+    "Lombard (Lombardia)"
+  ],
+  [
+    "kw_GB",
+    "Kernewek (Kernow)"
+  ],
+  [
+    "be_LATN",
+    "Biełaruskaja (Biełaruś)"
+  ],
+  [
+    "nds_DE",
+    "Plattdüütsch (Düütschland)"
+  ],
+  [
+    "lv_LV",
+    "Latviešu (Latvija)"
+  ],
+  [
+    "cy_GB",
+    "Cymraeg (Cymru)"
+  ],
+  [
+    "esan",
+    "Andalûh (Andaluçía)"
+  ],
+  [
+    "sv_SE",
+    "Svenska (Sverige)"
+  ],
+  [
+    "es_UY",
+    "Español (Uruguay)"
+  ],
+  [
+    "fr_FR",
+    "Français (France)"
+  ],
+  [
+    "vp_VL",
+    "Viossa (Vilant)"
+  ],
+  [
+    "en_CA",
+    "English (Canada)"
+  ],
+  [
+    "enp",
+    "Anglish (Oned Riches)"
+  ],
+  [
+    "lo_LA",
+    "ລາວ (ປະເທດລາວ)"
+  ],
+  [
+    "pl_PL",
+    "Polski (Polska)"
+  ],
+  [
+    "io_EN",
+    "Ido (Idia)"
+  ],
+  [
+    "sxu",
+    "Säggs’sch (Saggsn)"
+  ],
+  [
+    "es_ES",
+    "Español (España)"
+  ],
+  [
+    "tok",
+    "toki pona (ma pona)"
+  ],
+  [
+    "uk_UA",
+    "Українська (Україна)"
+  ],
+  [
+    "qid",
+    "Bhs. Indonesia edjaän lama (Indonesia tempo doeloe)"
+  ],
+  [
+    "ms_MY",
+    "Bahasa Melayu (Malaysia)"
+  ],
+  [
+    "ovd",
+    "Övdalska (Swerre)"
+  ],
+  [
+    "yo_NG",
+    "Yorùbá (Nàìjíríà)"
+  ],
+  [
+    "da_DK",
+    "Dansk (Danmark)"
+  ],
+  [
+    "ar_SA",
+    "العربية (العالم العربي)"
+  ],
+  [
+    "br_FR",
+    "Brezhoneg (Breizh)"
+  ],
+  [
+    "el_GR",
+    "Ελληνικά (Ελλάδα)"
+  ],
+  [
+    "ba_RU",
+    "Башҡортса (Башҡортостан, Рәсәй)"
+  ],
+  [
+    "es_VE",
+    "Español (Venezuela)"
+  ],
+  [
+    "bg_BG",
+    "Български (България)"
+  ],
+  [
+    "hi_IN",
+    "हिंदी (भारत)"
+  ],
+  [
+    "hal_UA",
+    "Галицка (Галичина, Вкраїна)"
+  ],
+  [
+    "en_PT",
+    "Pirate Speak (The Seven Seas)"
+  ],
+  [
+    "hu_HU",
+    "Magyar (Magyarország)"
+  ],
+  [
+    "li_LI",
+    "Limburgs (Limburg)"
+  ],
+  [
+    "tl_PH",
+    "Tagalog (Pilipinas)"
+  ],
+  [
+    "fra_DE",
+    "Fränggisch (Franggn)"
+  ],
+  [
+    "de_DE",
+    "Deutsch (Deutschland)"
+  ],
+  [
+    "vi_VN",
+    "Tiếng Việt (Việt Nam)"
+  ],
+  [
+    "sr_CS",
+    "Srpski (Srbija)"
+  ],
+  [
+    "sah_SAH",
+    "Сахалыы (Cаха Сирэ)"
+  ],
+  [
+    "ast_ES",
+    "Asturianu (Asturies)"
+  ],
+  [
+    "es_CL",
+    "Español (Chile)"
+  ],
+  [
+    "kk_KZ",
+    "Қазақша (Қазақстан)"
+  ],
+  [
+    "no_NO",
+    "Norsk bokmål (Norge)"
+  ],
+  [
+    "en_GB",
+    "English (United Kingdom)"
+  ],
+  [
+    "nl_NL",
+    "Nederlands (Nederland)"
+  ],
+  [
+    "mn_MN",
+    "Монгол (Монгол Улс)"
+  ],
+  [
+    "et_EE",
+    "Eesti keel (Eesti)"
+  ],
+  [
+    "it_IT",
+    "Italiano (Italia)"
+  ],
+  [
+    "nn_NO",
+    "Norsk nynorsk (Noreg)"
+  ],
+  [
+    "so_SO",
+    "Soomaali (Soomaaliya)"
+  ],
+  [
+    "ga_IE",
+    "Gaeilge (Éire)"
+  ],
+  [
+    "th_TH",
+    "ไทย (ประเทศไทย)"
+  ],
+  [
+    "gd_GB",
+    "Gàidhlig (Alba)"
+  ],
+  [
+    "lb_LU",
+    "Lëtzebuergesch (Lëtzebuerg)"
+  ],
+  [
+    "pls",
+    "Ngiiwà (Ndanìꞌngà)"
+  ],
+  [
+    "zh_TW",
+    "繁體中文 (中国台灣)"
+  ],
+  [
+    "ru_RU",
+    "Русский (Россия)"
+  ],
+  [
+    "en_AU",
+    "English (Australia)"
+  ],
+  [
+    "mk_MK",
+    "Македонски (Северна Македонија)"
+  ],
+  [
+    "zh_CN",
+    "简体中文 (中国大陆) (已同步译名标准化)"
+  ],
+  [
+    "az_AZ",
+    "Azərbaycanca (Azərbaycan)"
+  ],
+  [
+    "tr_TR",
+    "Türkçe (Türkiye)"
+  ],
+  [
+    "zlm_ARAB",
+    "بهاس ملايو (مليسيا)"
+  ],
+  [
+    "ry_UA",
+    "Руснацькый (Пудкарпатя, Украина)"
+  ],
+  [
+    "enws",
+    "Shakespearean English (Kingdom of England)"
+  ],
+  [
+    "fil_PH",
+    "Filipino (Pilipinas)"
+  ],
+  [
+    "fi_FI",
+    "Suomi (Suomi)"
+  ],
+  [
+    "af_ZA",
+    "Afrikaans (Suid-Afrika)"
+  ],
+  [
+    "qcb_ES",
+    "Cántabru/Montañés (Cantabria)"
+  ],
+  [
+    "vec_IT",
+    "Vèneto (Veneto)"
+  ],
+  [
+    "fr_CA",
+    "Français (Canada)"
+  ],
+  [
+    "val_ES",
+    "Català (Valencià) (País Valencià)"
+  ],
+  [
+    "isv",
+    "Medžuslovjansky (Slovjanščina)"
+  ],
+  [
+    "qya_AA",
+    "Quenya (Arda)"
+  ],
+  [
+    "ko_KR",
+    "한국어 (대한민국)"
+  ],
+  [
+    "tzo_MX",
+    "Bats'i k'op (Jobel)"
+  ],
+  [
+    "en_UD",
+    "ɥsᴉꞁᵷuƎ (uʍoᗡ ǝpᴉsd∩)"
+  ],
+  [
+    "es_AR",
+    "Español (Argentina)"
+  ],
+  [
+    "ro_RO",
+    "Română (România)"
+  ],
+  [
+    "eu_ES",
+    "Euskara (Euskal Herria)"
+  ],
+  [
+    "lt_LT",
+    "Lietuvių (Lietuva)"
+  ],
+  [
+    "ig_NG",
+    "Igbo (Naigeria)"
+  ],
+  [
+    "sl_SI",
+    "Slovenščina (Slovenija)"
+  ],
+  [
+    "jbo_EN",
+    "la .lojban. (la jbogu'e)"
+  ],
+  [
+    "ka_GE",
+    "ქართული (საქართველო)"
+  ],
+  [
+    "zh_HK",
+    "繁體中文 (中国-香港特別行政區)"
+  ],
+  [
+    "rpr",
+    "Русскій дореформенный (Россійская имперія)"
+  ],
+  [
+    "id_ID",
+    "Bahasa Indonesia (Indonesia)"
+  ],
+  [
+    "gl_ES",
+    "Galego (Galicia / Galiza)"
+  ],
+  [
+    "sk_SK",
+    "Slovenčina (Slovensko)"
+  ],
+  [
+    "bs_BA",
+    "Bosanski (Bosna i Hercegovina)"
+  ],
+  [
+    "nah",
+    "Mēxikatlahtōlli (Mēxiko)"
+  ],
+  [
+    "he_IL",
+    "עברית (ישראל)"
+  ],
+  [
+    "de_AT",
+    "Deitsch (Österreich)"
+  ],
+  [
+    "tlh_AA",
+    "tlhIngan Hol (tlhIngan wo')"
+  ],
+  [
+    "be_BY",
+    "Беларуская (Беларусь)"
+  ],
+  [
+    "de_CH",
+    "Schwiizerdütsch (Schwiiz)"
+  ],
+  [
+    "es_EC",
+    "Español (Ecuador)"
+  ],
+  [
+    "haw_US",
+    "ʻŌlelo Hawaiʻi (Hawaiʻi)"
+  ],
+  [
+    "brb",
+    "Braobans (Braobant)"
+  ],
+  [
+    "ca_ES",
+    "Català (Catalunya)"
+  ]
+]

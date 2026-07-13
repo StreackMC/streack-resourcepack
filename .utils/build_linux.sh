@@ -110,6 +110,11 @@ mkdir -p target
 
 echo -e "${NC}${BOLD}${CYAN}# 开始打包"
 zip -r9 ./target/${app_output_name}-${git_ver}.zip \
+  ./data/* \
+  ./license.txt \
+  ./pack.mcmeta \
+  ./pack.png \
+  "./README ‖ 读我.txt" \
   ./assets/* \
   ./texts/* \
   ./textures/* \

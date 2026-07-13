@@ -1,7 +1,7 @@
 {
   "format_version": 2,
   "header": {
-    "description": "§7Created by @kdxiaoyi.§fFind more @ http://gitee.com/kdxiaoyi/Streack/",
+    "description": "§7Created by @kdxiaoyi.§fFind more @ http://github.com/StreackMC",
     "name": "§6栈流Streack§b基岩版附加包§r",
     "uuid": "ac30013e-686a-4ddc-8193-0c156e5ba169",
     "version": [1, 1, 0],
@@ -18,7 +18,7 @@
   "settings": [
     {
       "type": "label",
-      "text": "§7Created by @kdxiaoyi.\n§fFind more @ http://gitee.com/kdxiaoyi/Streack/"
+      "text": "§7Created by @kdxiaoyi.\n§fFind more @ http://github.com/StreackMC"
     }
   ]
 }
